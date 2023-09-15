@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Gilroy";
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+.main-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 70px 250px 70px 250px;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  background: rgb(183, 174, 209);
+  
+}
+.left {
+  width: 40%;
+  height: 100%;
+  background: rgb(255, 255, 255);
+  border-radius: 50px 0px 0px 50px ;
+}
+.right {
+  width: 60%;
+  height: 100%;
+}
+img {
+    width: 587px;
+    height: 646px;
+    border-radius: 0px 50px 50px 0px ;
+}
+.heading {
+  text-align: center;
+  margin-top: 50px;
+}
+.inputs {
+  width: 100%;
+  height: 45%;
+}
+label,
+input {
+  display: block;
+}
+.inputs {
+  margin-top: 40px;
+  margin-left: 15%;
+}
+input {
+  font-size: 13px;
+  width: 250px;
+  height: 25px;
+  border: 0;
+  outline: 0;
+  background-color: rgb(236, 239, 239);
+  border-bottom: 1px solid black;
+}
+.email-div,
+.role-div,
+.pwd-div,
+.c-pwd-div {
+  margin: 20px;
+}
+.checkbox {
+  display: flex;
+  justify-content: left;
+  margin-left: 20%;
+}
+#checkbox {
+  width: 17px;
+  height: 17px;
+}
+.check-txt {
+  margin-left: 5px;
+ 
+}
+
+.register-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+label {
+  font-size: 16px;
+}
+.r-btn {
+  width: 130px;
+  height: 30px;
+  background-color: #032259;
+  color: aliceblue;
+  border-radius: 10px;
+}
+.subbox{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.f-heading {
+  font-size: 15px;
+}

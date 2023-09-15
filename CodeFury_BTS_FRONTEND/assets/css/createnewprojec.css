@@ -1,0 +1,98 @@
+.img{
+    width: 700px;
+    height: 400px;
+  }
+.header{
+  background-color: rgb(0, 0, 0);
+  border-bottom: 2px rgb(82, 82, 82) solid;
+
+}
+
+.box{
+  background: #000;
+  background: linear-gradient(to right, #4b0082, #000000, #4b0082);
+}
+.custom-bg-purple{
+  background: purple;
+}
+.mysec{
+  background: url('../img/np5.gif');
+  background-size: cover;
+  height: 130vh;
+  font-family: 'Cantata One', serif;
+font-family: 'DM Serif Display', serif;
+font-family: 'Gloock', serif;
+font-family: 'Old Standard TT', serif;
+}
+@media (max-width: 675px) {
+  .form-control::placeholder {
+    font-size: 14px; 
+  }
+  .overlay-paragraph{
+    width: 300px;
+    background: #000;
+    font-size: 17px;
+  }
+  form{
+    width: 300px;
+  }
+  .overlay-paragraph{
+    width: 100px;
+    padding: 5px 5px;
+    background: transparent;
+    border: 1px red solid;
+  }
+}
+.overlay-paragraph {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/np2.gif');
+  color: white; 
+  padding: 20px; 
+  background-blend-mode: overlay; 
+  background-size: cover; 
+  color: white;
+  width: 600px;
+  padding: 30px 30px;
+  margin-left: 20px;
+font-size: 20px;
+
+}
+input{
+  width: 600px;
+}
+.myh{
+  font-family: 'Cantata One', serif;
+font-family: 'DM Serif Display', serif;
+font-family: 'Gloock', serif;
+font-family: 'Old Standard TT', serif;
+font-weight: bolder;
+margin-bottom: 44px;
+}
+.mybtn{
+  background-color: #4b0082;
+  color: white;
+  width: 200px;
+  margin-top: 30px;
+  font-size: 22px;
+}
+label{
+  margin-top: 10px;
+}
+input, textarea, select{
+background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(24, 11, 70, 0.9));
+
+}
+.form-control {
+    border: none; 
+    border-radius: 0; 
+    box-shadow: none; 
+    color: white;
+  }
+  .form-control::placeholder {
+  color: white;
+}
+input[type="text"]:focus::placeholder,
+input[type="date"]:focus::placeholder,
+textarea:focus::placeholder,
+select:focus::placeholder {
+    color: white;
+}

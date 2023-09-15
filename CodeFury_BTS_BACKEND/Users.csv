@@ -1,0 +1,9 @@
+id,name,email,password,role_id,project_id
+1000,"Aditi Mishra",aditi@gmail.com,6789,1,100
+1001,"Kaustav Ganguly",kaustav@gmail.com,6789,2,100
+1002,Adit,adit@gmail.com,6789,2,100
+1003,"Vedika Hripathak",vedika@gmail.com,6789,3,100
+1004,"Aditi Mishra",aditi@gmail.com,6789,1,102
+1005,"Ananya Joshi",ananya@gmail.com,6789,2,102
+1006,Payal,payal@gmail.com,6789,2,102
+1007,"Fatehpreet Singh",fatehpreet@gmail.com,6789,3,102

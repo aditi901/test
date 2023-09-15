@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Bug Tracking System</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <!-- <link href="assets/img/favicon.png" rel="icon"> -->
+  <!-- <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Impact
+  * Updated: Jul 27 2023 with Bootstrap v5.3.1
+  * Template URL: https://bootstrapmade.com/impact-bootstrap-business-website-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+<style>
+  .img{
+    width: 700px;
+    height: 400px;
+  }
+.header{
+  background-color: rgb(0, 0, 0);
+  border-bottom: 2px rgb(82, 82, 82) solid;
+
+}
+
+.box{
+  background: #000;
+/* background: linear-gradient(to right, #e6cfff, #f8a0ff, #b36cff); */
+  background: linear-gradient(to right, #4b0082, #000000, #4b0082);
+}
+.custom-bg-purple{
+  background: purple;
+}
+.mysec{
+  background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('images/np2.gif');
+  /* background: linear-gradient(to bottom, rgba(5, 5, 5, 0.5), rgba(255, 255, 255, 0.5)), 
+              url('/assets/img/np2.gif'); */
+  background-size: cover;
+  height: 100%;
+  font-family: 'Cantata One', serif;
+font-family: 'DM Serif Display', serif;
+font-family: 'Gloock', serif;
+font-family: 'Old Standard TT', serif;
+  /* padding-bottom: 20px; */
+  /* background-position: center; */
+}
+@media (max-width: 675px) {
+  .form-control::placeholder {
+    font-size: 14px; /* Adjust the font size for smaller screens */
+  }
+  .overlay-paragraph{
+    width: 300px;
+    background: #000;
+    /* border: 2px red solid; */
+    font-size: 17px;
+  }
+  form{
+    width: 300px;
+  }
+  .overlay-paragraph{
+    width: 100px;
+    padding: 5px 5px;
+    background: transparent;
+    border: 1px red solid;
+    /* height: 400px; */
+  }
+}
+.overlay-paragraph {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/img/np2.gif');
+  color: white; /* Text color on the overlay */
+  padding: 20px; /* Add padding to the paragraph for better readability */
+  background-blend-mode: overlay; /* Blend the background image and the overlay */
+  background-size: cover; /* Adjust the background size as needed */
+  color: white;
+  width: 600px;
+  height: 100% ;
+  padding: 30px 30px;
+  margin-left: 20px;
+font-size: 20px;
+/* border: 2px red solid; */
+
+}
+input{
+  width: 600px;
+}
+.myh{
+  font-family: 'Cantata One', serif;
+font-family: 'DM Serif Display', serif;
+font-family: 'Gloock', serif;
+font-family: 'Old Standard TT', serif;
+font-weight: bolder;
+margin-bottom: 44px;
+}
+.mybtn{
+  background-color: #4b0082;
+  color: white;
+  width: 200px;
+  margin-top: 30px;
+  font-size: 22px;
+}
+label{
+  margin-top: 10px;
+}
+input, textarea, select{
+background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(24, 11, 70, 0.9));
+
+}
+.form-control {
+    border: none; /* Remove the border */
+    border-radius: 0; /* Optionally remove border-radius for square edges */
+    box-shadow: none; /* Optionally remove box shadow */
+    color: white;
+  }
+  
+  .form-control::placeholder {
+  color: white;
+}
+input[type="text"]:focus::placeholder,
+input[type="date"]:focus::placeholder,
+textarea:focus::placeholder,
+select:focus::placeholder {
+    color: white;
+}
+
+
+</style>
+
+
+<body>
+
+  <header id="header" class="header d-flex align-items-center">
+
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1>BMS<span>.</span></h1>
+      </a>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="index.html#hero">Home</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#services">Services</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </nav><!-- .navbar -->
+
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+
+    </div>
+  </header><!-- End Header -->
+  <!-- End Header -->
+
+
+
+  <section class="container-fluid mysec">
+    <div class="overlay-paragraph">
+      <h1 class="myh">Report a New Bug</h1>
+      <p><form>
+        <div class="form-group">
+          <label for="projectName">Project ID</label> 
+          <input type="text" class="form-control" id="projectID" placeholder="Enter project ID" required>
+        </div>
+        <div class="form-group">
+          <label for="projectName">Project Name</label> 
+          <input type="text" class="form-control" id="projectName" placeholder="Enter project name" required>
+        </div>
+        <div class="form-group">
+          <label for="startDate">Title</label>
+          <input type="text" class="form-control" id="projectTitle" placeholder="Enter project title" required>
+        </div>
+        <div class="form-group">
+          <label for="projectDetails">Project Description</label>
+          <input type="text" class="form-control" id="projectDescription" placeholder="Enter project description" required>
+        </div>
+        <div class="form-group">
+          <label for="projectDetails">Security Level</label>
+          <input type="number" class="form-control" id="securityLevel" placeholder="Enter security level" required>
+        </div>
+
+        <!-- <button type="submit" class="btn mybtn" id="mybtn">Create</button> -->
+        <button type="button" class="btn mybtn" id="mybtn">Create</button>
+
+        <div class="error-message" id="errorMessage"></div>
+      </form>
+      </p>
+    </div>
+    
+  </section>
+
+  <footer id="footer" class="footer bg-dark">
+
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-lg-5 col-md-12 footer-info">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span >Bug Tracking System</span>
+          </a>
+          <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+          <div class="social-links d-flex mt-4">
+            <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Services</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Register</a></li>
+            <li><a href="#">Import Users</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+          <h4>Contact Us</h4>
+          <p>
+            A108 Adam Street <br>
+            Pune,<br>
+            India <br><br>
+            <strong>Phone:</strong> +91 78 56732 2343<br>
+            <strong>Email:</strong> bts@gmail.com<br>
+          </p>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container mt-4">
+      <div class="copyright">
+      <strong><span>Bug Tracking System</span></strong>
+      </div>
+    </div>
+
+  </footer><!-- End Footer -->
+  <!-- End Footer -->
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center">
+    <i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script>
+ document.getElementById("mybtn").addEventListener("click", function () {
+    // Retrieve form data
+    const projectName = document.getElementById("projectName").value;
+    const startDate = new Date(document.getElementById("startDate").value);
+    const description = document.getElementById("projectDetails").value;
+    const teamMembers = Array.from(document.querySelectorAll("#teamMembers option:checked")).map(option => option.value);
+
+    // Business rules
+    const currentDate = new Date();
+    const twoDaysLater = new Date(currentDate);
+    twoDaysLater.setDate(currentDate.getDate() + 2);
+
+    if (startDate < twoDaysLater) {
+        const errorMessage = "Start date should be at least 2 days later than the current date.";
+        document.getElementById("errorMessage").textContent = errorMessage;
+
+        // Display the error message for 5 seconds (5000 milliseconds)
+        setTimeout(function () {
+            document.getElementById("errorMessage").textContent = "";
+        }, 5000);
+
+        return;
+    }
+
+    // Add your additional business rules here
+
+    // If all rules pass, submit the form (you can add AJAX code here)
+    alert("Form submitted successfully!");
+});
+
+  </script>
+
+</body>
+
+</html>

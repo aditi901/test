@@ -1,0 +1,66 @@
+.mysec{
+    background: linear-gradient(to bottom, rgba(12, 12, 12, 0.5), rgba(44, 0, 94, 0.7)), 
+    url('../img/np6.gif');
+background-size: cover;
+height: 140vh;
+font-family: 'Cantata One', serif;
+font-family: 'DM Serif Display', serif;
+font-family: 'Gloock', serif;
+font-family: 'Old Standard TT', serif;
+}
+
+.severity-badge {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.high-severity {
+  background-color: red;
+}
+
+.low-severity {
+  background-color: lightblue;
+}
+.med-severity {
+  background-color: rgb(235, 233, 114);
+}
+.mytable{
+background: linear-gradient(rgba(8, 8, 8, 0.5), rgba(5, 5, 5, 0.5));
+margin: auto;
+width: 1600px;
+padding: 20px 20px;
+background-color: transparent;
+}
+.table-responsive {
+max-width: 1300px;
+overflow-x: auto;
+}
+.bl{    font-family: 'Cantata One', serif;
+font-family: 'DM Serif Display', serif;
+font-family: 'Gloock', serif;
+font-family: 'Old Standard TT', serif;
+margin-bottom: 8px;
+padding: 20px 20px;
+font-size: 34px;
+color: white;}
+.mytr th{
+width: 00px;
+}
+.mybtn{
+width: 100px;
+}
+.table-responsive {
+background-color: transparent;
+margin: auto;
+width: 1200px;
+padding: 20px 20px;
+}
+
+.table, .mytable {
+background-color: transparent !important;
+background-color: transparent !important;
+background-color: rgba(0, 0, 0, 0); 
+}

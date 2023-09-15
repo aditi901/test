@@ -1,0 +1,4 @@
+id,title,project_id,description,createdBy,openDate,closeDate,assignedTo,marked_for_closing,closedBy,closedOn,status,severity_level
+1,"weird 1",103,"wecfjweif pijcexiwehf",1003,2023-07-07,2023-07-25,1001,1,1001,2023-07-23,on,low
+2,ndhfh,103,"hbde huedhu",1003,cneed,nfdj,1002,1,1002,nthgh,closed,high
+3,rfwwr,102,"fwefw eefwf  fw",1003,fghjk,dfghjk,1002,1,1002,dfgh,closed,high

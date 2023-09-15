@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  
+    <!-- Template Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bug_list.css">
+</head>
+<body>
+    <header id="header" class="header d-flex align-items-center">
+
+        <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <h1>BMS<span>.</span></h1>
+          </a>
+          <nav id="navbar" class="navbar">
+            <ul>
+              <li><a href="index.html#hero">Home</a></li>
+              <li><a href="index.html#about">About</a></li>
+              <li><a href="index.html#services">Services</a></li>
+              <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+          </nav>
+    
+          <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+          <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+    
+        </div>
+      </header><!-- End Header -->
+      <section class="container-fluid mysec">
+
+
+        <div class="mycont2 container-fluid">
+          <div class="table-responsive">
+            <h2 class="bl">Bug List</h2>
+          <table class="table table-dark table-striped mytable">
+            <thead>
+              <tr class="mytr">
+                <th>Bug ID</th>
+                <th>Title</th>
+                <th>Description</th>
+                <th>Project Name</th>
+                <th>Created By</th>
+                <th>OpenDate</th>
+                <th>Marked for Closing</th>
+                <th>Closed By</th>
+                <th>Closed On</th>
+                <th>Assigned To</th>
+                <th>Status</th>
+                <th>Severity Level</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody class="table-group-divider">
+              <tr>
+                <td>1</td>
+                <td>Login button not working</td>
+                <td>The login button on the website is not functioning correctly.</td>
+                <td>My Project</td>
+                <td>John Doe</td>
+                <td>2023-09-02</td>
+                <td>Yes</td>
+                <td>Jane Smith</td>
+                <td>2023-09-05</td>
+                <td>Developer 1</td>
+                <td>Closed</td>
+                <td><span class="severity-badge med-severity"></span></td>
+                <td>
+                  <span class="assign-bug">
+                    <button type="button" class="btn btn-primary mybtn">Assign</button>
+                  </span>
+                  <br><br>
+                  <span class="close-bug">
+                    <button type="button" class="btn btn-danger mybtn">Close</button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Page not loading</td>
+                <td>The website page is not loading properly. It's taking too long to load.</td>
+                <td>My Project</td>
+                <td>John Doe</td>
+                <td>2023-09-03</td>
+                <td>No</td>
+                <td>N/A</td>
+                <td>N/A</td>
+                <td>Developer 2</td>
+                <td>Open</td>
+                <td><span class="severity-badge low-severity"></span></td>
+                <td>
+                  <span class="assign-bug">
+                    <button type="button" class="btn btn-primary mybtn">Assign</button>
+                  </span>
+                  <br><br>
+                  <span class="close-bug">
+                    <button type="button" class="btn btn-danger mybtn">Close</button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Missing images</td>
+                <td>Some images are missing from the website content.</td>
+                <td>My Project</td>
+                <td>John Doe</td>
+                <td>2023-09-04</td>
+                <td>No</td>
+                <td>N/A</td>
+                <td>N/A</td>
+                <td>Developer 3</td>
+                <td>Open</td>
+                <td><span class="severity-badge high-severity"></span></td>
+                <td>
+                  <span class="assign-bug">
+                    <button type="button" class="btn btn-primary mybtn">Assign</button>
+                  </span>
+                  <br><br>
+                  <span class="close-bug">
+                    <button type="button" class="btn btn-danger mybtn">Close</button>
+                  </span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div></div>
+      </section>
+      <!-- End Header --><footer id="footer" class="footer bg-dark">
+
+    <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-5 col-md-12 footer-info">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <span >Bug Tracking System</span>
+            </a>
+            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+            <div class="social-links d-flex mt-4">
+              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+  
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Services</a></li>
+            </ul>
+          </div>
+  
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><a href="#">Login</a></li>
+              <li><a href="#">Register</a></li>
+              <li><a href="#">Import Users</a></li>
+            </ul>
+          </div>
+  
+          <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+            <h4>Contact Us</h4>
+            <p>
+              A108 Adam Street <br>
+              Pune,<br>
+              India <br><br>
+              <strong>Phone:</strong> +91 78 56732 2343<br>
+              <strong>Email:</strong> bts@gmail.com<br>
+            </p>
+  
+          </div>
+  
+        </div>
+      </div>
+  
+      <div class="container mt-4">
+        <div class="copyright">
+        <strong><span>Bug Tracking System</span></strong>
+        </div>
+      </div>
+  
+    </footer><!-- End Footer -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+  
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
